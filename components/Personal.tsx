@@ -34,7 +34,7 @@ export default function Personal({
                 <label className="text-sm ml-1 font-semibold text-neutral-500">Last Name*</label>
                 <input
                 className="p-2 border border-neutral-300 rounded-xl text-base outline-0 focus:ring-3 focus:ring-blue-200 w-75 mb-3"
-                type="text" name="lastName" placeholder="Enter your LastName Name" value={form.personal.lastName} onChange={handleChange}/>
+                type="text" name="lastName" placeholder="Enter your Last Name" value={form.personal.lastName} onChange={handleChange}/>
                 <label className="text-sm ml-1 font-semibold text-neutral-500">Email*</label>
                 <input
                 className="p-2 border border-neutral-300 rounded-xl text-base outline-0 focus:ring-3 focus:ring-blue-200 w-75 mb-3"
@@ -59,7 +59,7 @@ export default function Personal({
                 <input
                 className="p-2 border border-neutral-300 rounded-xl text-base outline-0 focus:ring-3 focus:ring-blue-200 w-75 mb-3"
                 type="text" name="pincode" placeholder="Enter Pin code" value={form.personal.pincode} onChange={handleChange}/>
-                <label className="text-sm ml-1 font-semibold text-neutral-500">LinkedIn</label>
+                {/* <label className="text-sm ml-1 font-semibold text-neutral-500">LinkedIn</label> */}
                 {/* <input
                 className="p-2 border border-neutral-300 rounded-xl text-base outline-0 focus:ring-3 focus:ring-blue-200 w-75 mb-3"
                 type="text" name="linkedin" placeholder="Paste Link of Linkedin" value={form.personal.linkedin} onChange={handleChange}/>
