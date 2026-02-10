@@ -1,6 +1,9 @@
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>jello</div>
+    <div>
+      <Link href="/form"><button>Get Started</button></Link>
+    </div>
   );
 }
