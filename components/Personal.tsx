@@ -60,7 +60,7 @@ export default function Personal({
                 className="p-2 border border-neutral-300 rounded-xl text-base outline-0 focus:ring-3 focus:ring-blue-200 w-75 mb-3"
                 type="text" name="pincode" placeholder="Enter Pin code" value={form.personal.pincode} onChange={handleChange}/>
                 <label className="text-sm ml-1 font-semibold text-neutral-500">LinkedIn</label>
-                <input
+                {/* <input
                 className="p-2 border border-neutral-300 rounded-xl text-base outline-0 focus:ring-3 focus:ring-blue-200 w-75 mb-3"
                 type="text" name="linkedin" placeholder="Paste Link of Linkedin" value={form.personal.linkedin} onChange={handleChange}/>
                 <label className="text-sm ml-1 font-semibold text-neutral-500">GitHub</label>
@@ -70,7 +70,7 @@ export default function Personal({
                 <label className="text-sm ml-1 font-semibold text-neutral-500">Portfolio</label>
                 <input
                 className="p-2 border border-neutral-300 rounded-xl text-base outline-0 focus:ring-3 focus:ring-blue-200 w-75 mb-3"
-                type="text" name="portfolio" placeholder="Paste Link of Portfolio" value={form.personal.portfolio} onChange={handleChange}/>
+                type="text" name="portfolio" placeholder="Paste Link of Portfolio" value={form.personal.portfolio} onChange={handleChange}/> */}
                 <button
                 className="text-base font-semibold bg-blue-400 text-blue-900 py-2 rounded-xl"
                 type="submit" disabled={steps == 2}>Next</button>
