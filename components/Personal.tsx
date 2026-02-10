@@ -25,7 +25,7 @@ export default function Personal({
     }
 
     return (
-        <div className="flex justify-center h-dvh items-center">
+        <div className="flex justify-center h-full items-center">
             <form className="flex flex-col" onSubmit={handleSumbit}>
                 <label className="text-sm ml-1 font-semibold text-neutral-500">First Name*</label>
                 <input
